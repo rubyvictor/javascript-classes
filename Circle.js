@@ -4,13 +4,13 @@ class Circle {
     }
 
     area() {
-        var area = Math.PI.toFixed(2) * this.radius * this.radius;
-        return area;
+        var area = Math.PI * this.radius * this.radius;
+        return parseFloat(area.toFixed(1));
     }
 
     perimeter(){
-        var peri = 2 * Math.PI.toFixed(2) * this.radius;
-        return peri;
+        var peri = 2 * Math.PI * this.radius;
+        return parseFloat(peri.toFixed(1));
     }
 }
 
