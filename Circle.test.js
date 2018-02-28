@@ -24,5 +24,13 @@ test('Circle(1) should have perimeter of 6.3', function() {
     expect(cir1.perimeter(1)).toEqual(6.3);
 });
 
+test("Circle(2) should have perimeter of 12.6", function() {
+  var cir2 = new Circle(2);
+  expect(cir2.perimeter(2)).toEqual(12.6);
+});
 
+test("Circle(3) should have perimeter of 18.8", function() {
+  var cir3 = new Circle(3);
+  expect(cir3.perimeter(3)).toEqual(18.8);
+});
 });
