@@ -16,3 +16,8 @@ var p = new Rectangle(2,4);
 expect(p.perimeter(2,4)).toEqual(12);    
 });
 
+test('Rectangle(5,10) should have perimeter equal to 50', function() {
+ var pTwo = new Rectangle(5,10);
+ expect(pTwo.perimeter(5,10)).toEqual(30);   
+});
+
