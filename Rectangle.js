@@ -11,7 +11,7 @@ class Rectangle {
     }
 
     perimeter() {
-        console.log(2 * this.length + 2 * this.breadth);
+        return 2 * this.length + 2 * this.breadth;
     }
 
 }
