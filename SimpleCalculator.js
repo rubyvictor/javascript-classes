@@ -6,29 +6,29 @@ class SimpleCalculator {
     }
 
     add(n){
-        this.value + this.n;
+        this.value += n;
         return this;
 
     }
     subtract(m){
-        this.value - this.m;
+        this.value -= m;
         return this;
 
     }
 
     multiply(p){
-        this.value * this.p;
+        this.value *= p;
         return this;
     }
 
     divide(o){
-        this.value / this.o;
+        this.value /= o;
         return this;
     }
 
 }
 
-var calculator = new SimpleCalculator(5);
+var calculator = new SimpleCalculator(10);
 
 console.log(calculator.add(12).multiply(2).divide(2));
 // console.log(calculator.add(12).multiply(2).divide(2));
